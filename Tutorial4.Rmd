@@ -1,0 +1,4 @@
+```{r}
+• Title: Learning to reference figures, tables and sections • Author: Write your name • Date information • The file will render to html • Include the following in the YAML (and delete any other constant that might be in the file): output: bookdown::html_document2 keep_md: true
+```
+
