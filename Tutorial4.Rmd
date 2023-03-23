@@ -6,3 +6,11 @@ output:
   bookdown::html_document2
 keep_md: TRUE
 ---
+
+```{r}
+x = seq(1:100) 
+y = rnorm(100) 
+dat = data.frame(x, y) 
+ggplot(dat, aes(x = x, y = y)) + geom_line()
+```
+
